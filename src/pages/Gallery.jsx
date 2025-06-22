@@ -30,14 +30,14 @@ const Gallery = () => {
         <>
         <div className='p-5'>
 
-            <div  data-aos="fade-in" data-aos-duration="1000" className='flex items-center text-blue-500 mb-7 text-2xl' >
+{/*             <div  data-aos="fade-in" data-aos-duration="1000" className='flex items-center text-blue-500 mb-7 text-2xl' >
                 <PiCertificate className='mr-2' />
                 <h1 className='  font-semibold '>Certificates</h1>
             </div>
             <div>
                 <p>Coming Soon</p>
             </div>
-            {/* <div data-aos="fade-down" data-aos-duration="1500" className="flex justify-around gap-10 flex-wrap">
+            <div data-aos="fade-down" data-aos-duration="1500" className="flex justify-around gap-10 flex-wrap">
                 {certificates.map((image, index) => (
                     <img
                         key={index}
@@ -48,8 +48,8 @@ const Gallery = () => {
                         onClick={() => openModal("./certificates/" + image.src)}
                     />
                 ))}
-            </div> */}
-            <br /><br />
+            </div>
+            <br /><br /> */}
             <div className='flex items-center text-blue-500 mb-7 text-2xl' >
                 <GrAchievement className='mr-2' />
                 <h1 className='  font-semibold '>Achievements</h1>
