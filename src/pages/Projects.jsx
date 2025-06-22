@@ -235,10 +235,10 @@ const Projects = () => {
                 <div data-aos="fade-in" data-aos-duration="1000" className='flex justify-start items-center text-blue-500 mb-7 text-2xl' >
                     <GrProjects className='mr-2' />
                     <h1 className='  font-semibold '>Projects</h1>
-                </div>
+{/*                 </div>
                 <div>
                     Coming soon
-                </div>
+                </div> */}
                 <div data-aos="fade-down" data-aos-duration="1500" className="flex flex-wrap ">
                     {projects.map((project, index) => (
                         <div className="lg:w-1/3 sm:w-3/4 md:w-3/5 p-4" key={index}>
